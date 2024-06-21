@@ -14,7 +14,7 @@ const Portfolio = () => {
                     </div>
                     <div className="grid md:grid-cols-3 gap-8 px-0 lg:px-4 sm:px-0">
                          {portfolio.map(({ id, src, link, view }) => (
-                              <div key={id} className="shadow-md shadow-gray-600 rounded-lg relative z-5">
+                              <div key={id} className="h-[250px] md:h-full shadow-md shadow-gray-600 rounded-lg relative z-5">
                                    <img src={src} alt="" className="rounded-md duration-200 hover:scale-105 h-full" />
                                    <div className="flex items-center absolute top-0 rounded-md h-6 mt-1 ml-2 px-2 py-5 gap-1 border bg-zinc-500">
                                         <button>
