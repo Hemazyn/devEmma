@@ -42,11 +42,11 @@ Prerequisites
 Installation
 1. Clone the repository:
 ```
-git clone https://github.com/yourusername/portfolio-website.git
+git clone https://github.com/Hemazyn/devEmma.git
 ```
 2. Navigate to the project directory:
 ```
-cd portfolio-website
+cd devEmma
 ```
 3.Install dependencies:
 ```
