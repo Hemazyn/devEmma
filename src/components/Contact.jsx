@@ -52,7 +52,7 @@ const Contact = () => {
                               <input type="email" name="address" placeholder="Enter your email" className="my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none" required />
                               <textarea name="message" rows="10" className="p-4 bg-transparent border-2 rounded-md text-white focus:outline-none" placeholder="Enter your message" required>
                               </textarea>
-                              <button className="text-white bg-gradient-to-b from-green-500 to-lime-400 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">Let`s talk</button>
+                              <button className="text-white font-semibold bg-gradient-to-b from-green-500 to-lime-400 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">Let`s talk</button>
                          </form>
                     </div>
                </div>

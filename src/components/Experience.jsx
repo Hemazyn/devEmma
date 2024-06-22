@@ -3,7 +3,7 @@ import { techs } from "../constants";
 
 const Experience = () => {
      return (
-          <div name="experience" className="bg-gradient-to-b from-gray-800 to-black w-full">
+          <div name="experience" className="bg-gradient-to-b from-gray-800 to-black w-full pt-5">
                <div className="h-full mx-auto flex flex-col justify-center w-[90%] lg:w-4/5 text-white">
                     <div>
                          <p className="text-4xl font-bold inline border-b-4 border-gray-500 p-2">Experience</p>

@@ -31,11 +31,17 @@ import figma from "../assets/figma.webp";
 import netlify from "../assets/netlify.webp";
 import flutter from "../assets/flutter.webp";
 
+import fiverr from "../assets/fiverr.jpeg";
+import decor from "../assets/decor.jpeg";
+import hop from "../assets/hopmercry.png";
+
+
 
 export {
      board, drone, fitnessApp, hopmercy, restaurant, wforecast,
      fmovie, frandomword,
      bootstrap, css, dart, devEmma, git, github, hemazyn, html, javascript, reactImage, sass, tailwind,
      next, firebase, vercel, figma, netlify, flutter,
-     FaGithub, AiFillEye
+     FaGithub, AiFillEye,
+     fiverr, decor, hop
 };

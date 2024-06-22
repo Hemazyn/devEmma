@@ -31,7 +31,7 @@ const Portfolio = () => {
                          <div className="grid md:grid-cols-3 gap-8 mt-3">
                               {portfolioReact.map(({ id, src, link, view }) => (
                                    <div key={id} className="h-[250px] md:h-full shadow-md shadow-gray-600 rounded-lg relative z-5">
-                                        <img src={src} alt="" className="rounded-md duration-200 hover:scale-105 h-full" />
+                                        <img src={src} alt="" className="rounded-md duration-200 hover:scale-105 h-full w-full" />
                                         <div className="flex items-center absolute top-0 rounded-md h-6 mt-1 ml-2 px-2 py-5 gap-1 border bg-zinc-500">
                                              <button>
                                                   <Link to={link} target="_blank"><FaGithub size={20} /></Link>
