@@ -19,11 +19,11 @@ const Portfolio = () => {
                               React
                          </div>
                          <div className={`w-full rounded font-bold animate-pulse cursor-pointer ${taskType === 'react' ? 'underline underline-offset-8' : ''} bg-gradient-to-r from-purple-400 via-purple-500 to-purple-600 bg-clip-text text-transparent`}
-                              onClick={() => setTaskType('react')}>
+                              onClick={() => setTaskType('flutter')}>
                               Flutter
                          </div>
                          <div className={`w-full rounded font-bold animate-pulse cursor-pointer ${taskType === 'react' ? 'underline underline-offset-8' : ''} bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 bg-clip-text text-transparent`}
-                              onClick={() => setTaskType('react')}>
+                              onClick={() => setTaskType('native')}>
                               R- Native
                          </div>
                     </div>
