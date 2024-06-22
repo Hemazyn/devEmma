@@ -14,9 +14,18 @@ const Portfolio = () => {
                          <p className="py-6">Check out some of my work right here</p>
                     </div>
                     <div className="w-full md:w-2/5 flex justify-center mb-2">
-                         <div className={`w-full rounded font-bold cursor-pointer ${taskType === 'react' ? ' underline underline-offset-8' : ''}`} onClick={() => setTaskType('react')}>React</div>
-                         <div className={`w-full rounded font-bold cursor-pointer ${taskType === 'flutter' ? ' underline underline-offset-8' : ''}`} onClick={() => setTaskType('flutter')}>Flutter</div>
-                         <div className={`w-full rounded font-bold cursor-pointer ${taskType === 'native' ? ' underline underline-offset-8' : ''}`} onClick={() => setTaskType('native')}>R-Native</div>
+                         <div className={`w-full rounded font-bold animate-pulse cursor-pointer ${taskType === 'react' ? 'underline underline-offset-8' : ''} bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 bg-clip-text text-transparent`}
+                              onClick={() => setTaskType('react')}>
+                              React
+                         </div>
+                         <div className={`w-full rounded font-bold animate-pulse cursor-pointer ${taskType === 'react' ? 'underline underline-offset-8' : ''} bg-gradient-to-r from-purple-400 via-purple-500 to-purple-600 bg-clip-text text-transparent`}
+                              onClick={() => setTaskType('react')}>
+                              Flutter
+                         </div>
+                         <div className={`w-full rounded font-bold animate-pulse cursor-pointer ${taskType === 'react' ? 'underline underline-offset-8' : ''} bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 bg-clip-text text-transparent`}
+                              onClick={() => setTaskType('react')}>
+                              R- Native
+                         </div>
                     </div>
                     {taskType === 'react' && (
                          <div className="grid md:grid-cols-3 gap-8 mt-3">
