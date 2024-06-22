@@ -8,6 +8,9 @@ import hopmercy from "./portfolio/hopmercy.webp";
 import restaurant from "./portfolio/restuarant.webp";
 import wforecast from "./portfolio/wforecast.webp";
 
+import fmovie from "./portfolio/Fmovie.webp";
+import frandomword from "./portfolio/Frandomword.webp";
+
 import bootstrap from "../assets/bootstrap.webp";
 import css from "../assets/css.webp";
 import dart from "../assets/dart.webp";
@@ -31,6 +34,7 @@ import flutter from "../assets/flutter.webp";
 
 export {
      board, drone, fitnessApp, hopmercy, restaurant, wforecast,
+     fmovie, frandomword,
      bootstrap, css, dart, devEmma, git, github, hemazyn, html, javascript, reactImage, sass, tailwind,
      next, firebase, vercel, figma, netlify, flutter,
      FaGithub, AiFillEye

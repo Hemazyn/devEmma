@@ -4,6 +4,7 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaXTwitter } from "react-icons/fa6";
 import {
      board, drone, fitnessApp, hopmercy, restaurant, wforecast,
+     fmovie, frandomword,
      bootstrap, css, dart, git, github, html, javascript, reactImage, sass, tailwind,
      next, firebase, vercel, figma, netlify, flutter
 } from "../assets";
@@ -121,7 +122,7 @@ const techs = [
      }
 ]
 
-const portfolio = [
+const portfolioReact = [
      {
           id: 1,
           src: board,
@@ -153,6 +154,17 @@ const portfolio = [
           link: "https://github.com/Hemazyn/house_of_prophet",
           view: "https://hopmercy.netlify.app"
      },
+]
+const portfolioFlutter = [
+     {
+          id: 1,
+          src: frandomword,
+          link: "https://github.com/Hemazyn/RandomWordGenerator_advanced"
+     }, {
+          id: 2,
+          src: fmovie,
+          link: "https://github.com/Hemazyn/movie_app"
+     }
 ]
 
 const linksIcons = [
@@ -195,4 +207,4 @@ const linksIcons = [
      }
 ]
 
-export { links, techs, portfolio, linksIcons, FaGithub, FaLinkedin, HiOutlineMail, BsFillPersonLinesFill };
+export { links, techs, portfolioReact, portfolioFlutter, linksIcons, FaGithub, FaLinkedin, HiOutlineMail, BsFillPersonLinesFill };
